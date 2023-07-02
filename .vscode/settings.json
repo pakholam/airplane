@@ -1,0 +1,23 @@
+{
+    "search.exclude": {
+        "**/.svn": true,
+        "**/node_modules": true,
+        "**/build": true,
+        "**/library": true,
+        "**/temp": true,
+        "**/*.anim": true
+    },
+    "files.exclude": {
+        "**/*.meta": true,
+        "**build/": true,
+        "**library/": true,
+        "**temp/": true,
+        "library/": true,
+        "local/": true,
+        "temp/": true,
+        ".creator/": true
+    },
+    "explorer.excludeGitIgnore": true,
+    "editor.formatOnSave": true
+}
+

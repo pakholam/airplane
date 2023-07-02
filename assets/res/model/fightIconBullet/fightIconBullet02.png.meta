@@ -1,0 +1,42 @@
+{
+  "ver": "1.0.25",
+  "importer": "image",
+  "imported": true,
+  "uuid": "0ade8f05-f8d6-40d8-bdb9-f5626b0f2ca5",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "0ade8f05-f8d6-40d8-bdb9-f5626b0f2ca5@6c48a",
+      "displayName": "fightIconBullet02",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0ade8f05-f8d6-40d8-bdb9-f5626b0f2ca5",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "texture",
+    "redirect": "0ade8f05-f8d6-40d8-bdb9-f5626b0f2ca5@6c48a",
+    "fixAlphaTransparencyArtifacts": false
+  }
+}

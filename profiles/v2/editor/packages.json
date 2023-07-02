@@ -1,0 +1,9 @@
+{
+  "disable-packages": {
+    "/Users/cerfbaleine/": {
+      "CocosCreator/builtin-extensions/3": {
+        "7": {}
+      }
+    }
+  }
+}
