@@ -1,6 +1,7 @@
-import { _decorator, Component, Node, Vec3 } from 'cc';
+import { _decorator, BoxCollider, Component, ITriggerEvent, Node, Vec3 } from 'cc';
 import { Constant } from '../framework/Constant';
 import { GameManager } from '../framework/GameManager';
+import { PoolManager } from '../framework/PoolManager';
 const { ccclass, property } = _decorator;
 
 /**
@@ -25,7 +26,7 @@ export class EnemyPlane extends Component {
     // 由于游戏小，在gamemanager中设置，不用在外面配置
     // @property
     // public enemySpeed = 1;
-    private _enemySpeed: number = 1;
+    private _enemySpeed: number = 0;
     private _needBullet: boolean = false;
     private _gameManager: GameManager = null;
 
@@ -33,8 +34,14 @@ export class EnemyPlane extends Component {
 
     public enemyType = Constant.EnemyType.TYPE1;
 
-    start() {
-        // [3]
+    onEnable(): void {
+        const collider = this.getComponent(BoxCollider);
+        collider.on('onTriggerEnter', this._onTriggerEnter, this);
+    }
+
+    onDisable(): void {
+        const collider = this.getComponent(BoxCollider);
+        collider.off('onTriggerEnter', this._onTriggerEnter, this);
     }
 
     update(deltaTime: number) {
@@ -51,7 +58,7 @@ export class EnemyPlane extends Component {
         }
 
         if (movePos > OUTOFBOUNCE) {
-            this.node.destroy();
+            PoolManager.instance().putNode(this.node);
         }
     }
 
@@ -60,6 +67,19 @@ export class EnemyPlane extends Component {
         this._gameManager = gameManager;
         this._enemySpeed = speed;
         this._needBullet = needBullet;
+    }
+
+    private _onTriggerEnter(event: ITriggerEvent) {
+        const collisionGroup = event.otherCollider.getGroup();
+        if (
+            collisionGroup === Constant.CollisionType.SELF_PLANE ||
+            collisionGroup === Constant.CollisionType.SELF_BULLET
+        ) {
+            this._gameManager.playAudioEffect('enemy');
+            PoolManager.instance().putNode(this.node);
+            this._gameManager.addScore();
+            this._gameManager.createEnemyEffect(this.node.position);
+        }
     }
 }
 

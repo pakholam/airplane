@@ -46,6 +46,119 @@
     ],
     "/Users/cerfbaleine/Desktop/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/plane03/plane03.mtl": [
       "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/Desktop/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/fightIconBullet/fightIconBullet01.mtl": [
+      "c8f66d17-351a-48da-a12c-0212d28575c4",
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/Desktop/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/fightIconBullet/fightIconBullet02.mtl": [
+      "c8f66d17-351a-48da-a12c-0212d28575c4",
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/Desktop/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/fightIconBullet/fightIconBullet03.mtl": [
+      "c8f66d17-351a-48da-a12c-0212d28575c4",
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/Desktop/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/fightIconBullet/BulletS.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/Desktop/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/fightIconBullet/bulletS.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/Desktop/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/fightIconBullet/bulletH.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/Desktop/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/fightIconBullet/bulletW.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/Desktop/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/fightIconBullet/bulletM.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/background/material.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/background/bg.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/bullet/bullet01.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/bullet/bullet02.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/bullet/bullet03.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/bullet/bullet04.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/bullet/bullet05.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/fightIconBullet/bulletH.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/fightIconBullet/bulletM.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/fightIconBullet/bulletS.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/plane01/plane01.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/plane02/plane02.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/plane03/plane03.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/ball/ball.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/cloud/effectsTextures136.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/cloud/smoke3.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/explode/flarecore04.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/explode/fxcloudwhite2.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/explode/genericexplosionbigsheet.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/explode/glowparticlesgenericsheet.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/explode/path.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/stone/coreWind.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/stone/effectsTextures16451.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/stone/lightningblue.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/model/stone/stone.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/effect/tailFlame/flame01.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/texture/fightBoxBlood02a.mtl": [
+      "c8f66d17-351a-48da-a12c-0212d28575c4",
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/cerfbaleine/workspace/cocos/cocos-tutorial-airplane-video-06/airplane/assets/res/texture/fightBoxBlood02b.mtl": [
+      "c8f66d17-351a-48da-a12c-0212d28575c4",
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
     ]
   }
 }

@@ -1,14 +1,4 @@
-import {
-    _decorator,
-    Component,
-    Node,
-    // EventKeyboard,
-    // EventTouch,
-    // KeyCode,
-    // Input
-    // Touch,
-    // Vec2,
-} from 'cc';
+import { _decorator, Component, Node } from 'cc';
 const { ccclass, property } = _decorator;
 
 /**
@@ -22,7 +12,6 @@ const { ccclass, property } = _decorator;
  * ManualUrl = https://docs.cocos.com/creator/3.3/manual/zh/
  *
  */
-// const temp_vec2 = new Vec2();
 
 @ccclass('MovingSceneBg')
 export class MovingSceneBg extends Component {
@@ -35,35 +24,11 @@ export class MovingSceneBg extends Component {
     private _bgSpeed = 10;
     private _bgMovingRange = 90;
 
-    // private _originTouchPos = new Vec2();
-
-    start() {
-        this._init();
-        // this.bg01.on(Node.EventType.TOUCH_START, this._touchStart, this);
-        // input.on(Input.EventType.KEY_DOWN, this._keydown, this);
-    }
+    start() {}
 
     test() {
         this._init();
     }
-
-    // _touchStart(touch: Touch, event: EventTouch) {
-    //     console.log('touch start');
-    //     // 获取当前触点位置，getLocation依照屏幕左下角做的计算
-    //     touch.getLocation(temp_vec2);
-    //     // 适配设备分配率，getUILocation依照canvas尺寸左下角做触点计算
-    //     touch.getUILocation(temp_vec2);
-
-    //     // 避免直接使用等号赋值,若有其他地方给temp_vec2赋值，_originTouchPos也会改变
-    //     this._originTouchPos.set(temp_vec2);
-    //     // this._originTouchPos = temp_vec2;
-    // }
-
-    // _keydown(event: EventKeyboard) {
-    //     if (event.keyCode === KeyCode.KEY_A) {
-    //         console.log('keydown');
-    //     }
-    // }
 
     update(deltaTime: number) {
         this._moveBackground(deltaTime);

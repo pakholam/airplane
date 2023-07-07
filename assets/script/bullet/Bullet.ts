@@ -1,4 +1,6 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, BoxCollider, Component, ITriggerEvent, Node } from 'cc';
+import { Constant } from '../framework/Constant';
+import { PoolManager } from '../framework/PoolManager';
 const { ccclass, property } = _decorator;
 
 /**
@@ -22,7 +24,17 @@ export class Bullet extends Component {
 
     private _isEnemyBullet = false;
 
-    start() {}
+    private _direction = Constant.Direction.MIDDLE;
+
+    onEnable(): void {
+        const collider = this.getComponent(BoxCollider);
+        collider.on('onTriggerEnter', this._onTriggerEnter, this);
+    }
+
+    onDisable(): void {
+        const collider = this.getComponent(BoxCollider);
+        collider.off('onTriggerEnter', this._onTriggerEnter, this);
+    }
 
     update(deltaTime: number): void {
         const pos = this.node.position;
@@ -32,23 +44,32 @@ export class Bullet extends Component {
 
             this.node.setPosition(pos.x, pos.y, moveLength);
             if (moveLength > 50) {
-                this.node.destroy();
-                console.log('destroy');
+                PoolManager.instance().putNode(this.node);
             }
         } else {
             moveLength = pos.z - this._bulletSpeed;
-            this.node.setPosition(pos.x, pos.y, moveLength);
+            if (this._direction === Constant.Direction.LEFT) {
+                this.node.setPosition(pos.x - this._bulletSpeed * 0.2, pos.y, moveLength);
+            } else if (this._direction === Constant.Direction.RIGHT) {
+                this.node.setPosition(pos.x + this._bulletSpeed * 0.2, pos.y, moveLength);
+            } else {
+                this.node.setPosition(pos.x, pos.y, moveLength);
+            }
             if (moveLength < -50) {
-                this.node.destroy();
-                console.log('destroy');
+                PoolManager.instance().putNode(this.node);
             }
         }
     }
 
     // 在show里定义的都是对象被创建的时候初始化需要的一些配置，若是后续频繁修改，就不要写在这里
-    show(speed: number, isEnemyBullet: boolean) {
+    show(speed: number, isEnemyBullet: boolean, direction: number = Constant.Direction.MIDDLE) {
         this._bulletSpeed = speed;
         this._isEnemyBullet = isEnemyBullet;
+        this._direction = direction;
+    }
+
+    private _onTriggerEnter(event: ITriggerEvent) {
+        PoolManager.instance().putNode(this.node);
     }
 }
 
